@@ -7,10 +7,10 @@ body {
 }
 
 .header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 175px;
     background-color: #5E5E5E; 
     color: #f2f2f2; 
     padding: 20px;
@@ -36,10 +36,10 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-	font-size: 20px;
+    font-size: 20px;
     background-color: #ddd; 
     min-width: 150px;
-	right: 30px ;
+    right: 30px ;
 }
 
 .dropdown-content a {
@@ -62,15 +62,15 @@ body {
     color: #FFFFFF; 
     line-height: 1.5; 
     letter-spacing: 1px; 
-	margin-top: 20px;
-	position: relative;
-	top:30px;
+    margin-top: 20px;
+    position: relative;
+    top:30px;
 }
 
 
 .About-Text {
     text-align: center; 
-    font-size: 25px; 
+    font-size: 75px; 
     font-family: Sans-serif; 
     color: #FFFFFF; 
     line-height: 1.5; 
@@ -95,13 +95,13 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-	text-decoration: none;
+    text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
 .play-button:hover {
     background-color: #1EE14D;
-	color: #000;
+    color: #000;
 }
 
 .footer {
@@ -111,6 +111,6 @@ body {
     position: fixed; 
     bottom: 0; 
     width: 100%; 
-	height: 4%;
+    height: 4%;
 }
 
