@@ -6,10 +6,10 @@ body {
 }
 
 .header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 175px;
     background-color: #5E5E5E; 
     color: #f2f2f2; 
     padding: 20px;
@@ -30,12 +30,12 @@ body {
     position: absolute;
     background-color: #ddd; 
     min-width: 150px;
-	right: 30px ;
+    right: 30px ;
 }
 
 .dropdown-content a {
     color: #000000;
-	font-size: 20px;
+    font-size: 20px;
     padding: 12px 16px;
     text-decoration: underline;
     display: block;
@@ -61,15 +61,15 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 10px;
-	text-align: center;
-	font-size: 20px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .button-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
-	margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .button-link {
@@ -85,13 +85,13 @@ body {
     font-size: 20px;
     text-decoration: none;
     cursor: pointer;
-	text-align: center;
-	line-height: 25px; 
+    text-align: center;
+    line-height: 25px; 
 }
 
 .button-link:hover {
     background-color: #1EE14D;
-	color: #000;
+    color: #000;
 }
 
 
@@ -100,11 +100,11 @@ body {
 }
 
 .img-container img {
-    max-width: 300px;
-	max-height: 300px;
-	width: auto;
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
     height: auto;
-	border: 5px solid #5E5E5E;
+    border: 5px solid #5E5E5E;
 }
 
 .footer {
@@ -114,5 +114,5 @@ body {
     position: fixed; 
     bottom: 0; 
     width: 100%; 
-	height: 4%;
+    height: 4%;
 }
