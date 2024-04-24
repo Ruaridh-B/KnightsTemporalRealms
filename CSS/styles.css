@@ -66,6 +66,9 @@ body {
     position: relative;
     top:30px;
 }
+.bold-line {
+    font-weight: bold;
+}
 
 
 .About-Text {
